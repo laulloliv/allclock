@@ -1,0 +1,188 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+  }
+  
+body{
+	background-color: #000000;
+
+}
+
+header{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	width: 100%;
+	height: 4em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+div{
+	margin-left: 2em;
+}
+
+p{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+span{
+	margin-right: 2em;
+	font-size: 0.8em;
+}
+
+
+main{
+	display: flex;
+	width: 100%;
+	height: 35em;
+	background-color: #FFFFFF;
+}
+
+.img{
+	width: 35%;
+	height: 100%;
+	margin-left: -1em;
+	background-image: url(rel-3.jpg);
+	background-size: cover;
+	background-position: 0 -2em;
+}
+
+.endBuy{
+	width: 65%;
+	height: 100%;
+}
+
+.etapas{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1em;
+	margin-left: -3em;
+}
+
+#etp-1, #etp-2, #etp-3, #etp-4{
+	width: 1.5em;
+	height: 1.5em;
+	margin-top: 3em;
+	border: 1px solid #000000;
+	border-radius: 10em;
+}
+
+#etp-2, #etp-3, #etp-4{
+	margin-left: -0.1em;
+}
+
+#etp-1, #etp-2, #etp-3, #etp-4 {
+	background-color: #000000;
+}
+
+hr{
+	width: 10%;
+	height: 1px;
+	background-color: #000000;
+	margin-top: 3em;
+}
+
+.dados{
+	width: auto;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4em;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+
+.finalizar{
+	display: flex;
+	width: auto;
+	margin-top: 1.5em;
+}
+
+
+.previa{
+	width: auto;
+	height: 7em;
+	border-left: 1px solid #C4C4C4;
+	padding-left: 2em;
+}
+
+#text-t {
+	font-size: 1.2em;
+	margin-left: 0.3em;
+}
+
+.resumo{
+	width: 45%;
+	margin-left: -1.5em;
+}
+
+#text{
+	margin-bottom: 1em;
+}
+
+.etps{
+	margin-left: -0.1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 0.8em;
+}
+
+#t-2{
+	font-size: 1.2em;
+	margin-top: 1.5em;
+}
+
+
+#rel{
+	margin-left: 0.7em;
+}
+
+.backOrGo{
+	width: 80%;
+	margin-top: 4em;
+	margin-left: 6em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#voltar{
+	color: #000000;
+	margin-left: -2.5em;
+}
+
+#continuar{
+	padding: 0.8em 1.5em 0.8em 1.5em;
+	color: #FFFFFF;
+	margin-right: 1em;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 0.5em;
+	text-decoration: none;
+}
+
+#continuar:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+
